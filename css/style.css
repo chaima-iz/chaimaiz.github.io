@@ -8404,7 +8404,18 @@ h1, h2, h3, h4, h5,
     .hero h3.vr {
       opacity: 0;
       display: none; } }
-
+#home-section{
+  margin-bottom:2em;
+}
+@media(max-width:768px){
+  #home-section{
+    margin-bottom:8em;
+  }
+}
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
 .owl-carousel {
   position: relative; }
   .owl-carousel .owl-item {
